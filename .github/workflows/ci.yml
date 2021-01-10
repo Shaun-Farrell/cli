@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - tmpDisabled
   pull_request:
     branches:
-      - main
+      - tmpDisabled
 
 jobs:
   test:
