@@ -3,17 +3,17 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - tmpDisabled
   pull_request:
     branches:
-      - main
+      - tmpDisabled
 
 jobs:
   test:
     strategy:
       matrix:
-        os: [ubuntu-latest]
-        node: [12.x]
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+        node: [14.x, 12.x, 10.x]
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: Node ${{ matrix.node }} on ${{ matrix.os }}
