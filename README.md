@@ -2,7 +2,7 @@
 
 > [Shaun Farrell](https://www.jsclouddev.com/) CLI
 
-<p align="center"><img src="https://raw.githubusercontent.com/jakejarvis/cli/main/screenshot.png" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/shaun-farrell/cli/main/screenshot.png" width="700"></p>
 
 ## Usage
 
