@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-    - main
+      - main
   pull_request:
     branches:
-    - main
+      - main
 
 jobs:
   test:
@@ -18,11 +18,11 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: Node ${{ matrix.node }} on ${{ matrix.os }}
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 1
-    - uses: actions/setup-node@v2-beta
-      with:
-        node-version: ${{ matrix.node }}
-    - run: yarn install --frozen-lockfile
-    - run: yarn test
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: ${{ matrix.node }}
+      - run: yarn install --frozen-lockfile
+      - run: yarn test
