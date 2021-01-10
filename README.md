@@ -13,8 +13,6 @@ $ npx @shaun-farrell/cli
 ## Inspired by
 
 - [@jakejarvis/cli](https://github.com/jakejarvis/cli)
-- [@sindresorhus/sindresorhus](https://github.com/sindresorhus/sindresorhus)
-- [@yg/ygcodes](https://github.com/yg/ygcodes)
 
 ## Built with
 
@@ -23,4 +21,4 @@ $ npx @shaun-farrell/cli
 
 ## License
 
-MIT © [Shaun Farrell](https://www.jsclouddev.com), [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Shaun Farrell](https://www.jsclouddev.com)
